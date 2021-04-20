@@ -107,13 +107,7 @@ client.connect((err) => {
             res.send(result);
          });
    });
-
-   // Find Bookings
-   // app.get('/allBookings', (req, res) => {
-   //    bookingCollection.find({}).toArray((err, result) => {
-   //       res.send(result);
-   //    });
-   // });
+  
 
    // Added Admin
    app.post('/addAdmin', (req, res) => {
